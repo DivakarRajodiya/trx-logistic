@@ -34,10 +34,24 @@
 
                                     </div>
 
-                                    <p> 	Plot No 230, Udyog Vihar Phase I, Gurgaon - 122 016, Haryana</p>
+                                    <p> {{ config('app.company_address') }} <br> {{ config('app.company_city') }}</p>
 
-                                    <div class="contact-detail">  <span class="contact"> <i class="fa fa-phone"></i>  <strong>Phone No</strong> 	+ 91 11 49093349  </span><span class="contact"> <i class="fa fa-mobile"></i> <strong>Phone No</strong> <span>+ 91 8527688611</span> </span> <span class="contact"> <i class="fa fa-envelope"></i> <strong>Email Address</strong> <br><span>info@trxlogistic.com</span> </span> </div>
-
+                                    <div class="contact-detail">
+                                        <span class="contact">
+                                            <i class="fa fa-phone"></i>
+                                                <strong>Phone No</strong> 	{{ getContactNo1() }}
+                                        </span>
+                                        <span class="contact">
+                                            <i class="fa fa-mobile"></i>
+                                            <strong>Phone No</strong>
+                                            <span>{{ getContactNo2() }}</span>
+                                        </span>
+                                        <span class="contact">
+                                            <i class="fa fa-envelope"></i>
+                                            <strong>Email Address</strong> <br>
+                                            <span>{{ config('app.company_email1') }}</span>
+                                        </span>
+                                    </div>
 
 
                                     <h3>Pan India locations</h3>
@@ -88,7 +102,7 @@
 
                                         <div id="formresult"></div>
 
-                                        <form id="contactform" method="post" action="submits/contact.php">
+                                        <form id="contactform" method="post" action="#">
 
                                             <div class="row">
 
@@ -120,9 +134,9 @@
 
                                                 <div class="col-md-12">
 
-                                                    <script src='https://www.google.com/recaptcha/api.js'></script>
+{{--                                                    <script src='https://www.google.com/recaptcha/api.js'></script>--}}
 
-                                                    <div class="g-recaptcha" data-sitekey="6Lc4dcAgAAAAAEum7JSGamyanLyGVD0xo-em6OYM"></div>
+{{--                                                    <div class="g-recaptcha" data-sitekey="6Lc4dcAgAAAAAEum7JSGamyanLyGVD0xo-em6OYM"></div>--}}
 
                                                     <button id="quote-btn" title="" itemprop="url" type="submit" class="theme-btn"><i class="fa fa-paper-plane"></i>Contact Now</button>
 

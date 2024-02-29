@@ -13,13 +13,13 @@
 
                 <ul>
 
-                    <li><img src="{{ asset('images/phone.png') }}" alt=""/> <span>011-49093349</span>
+                    <li><img src="{{ asset('images/phone.png') }}" alt=""/> <span>{{ config('app.company_landline_no') }}</span>
 
                         <p>Call Us Now</p>
 
                     </li>
 
-                    <li><img src="{{ asset('images/sms.png') }}" alt=""/> <span>info@trxlogistic.com</span>
+                    <li><img src="{{ asset('images/sms.png') }}" alt=""/> <span>{{ config('app.company_email1') }}</span>
 
                         <p>Have Any Question?</p>
 

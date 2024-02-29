@@ -10,11 +10,13 @@
                                 <div class="heading2">
                                     <h3>Contact Info</h3>
                                     <p><strong>Address :</strong><br>
-                                        Plot No. 230, Udyog Vihar Phase I, Gurgaon - 122016, Haryana</p>
+                                        {{ config('app.company_address') }} <br> {{ config('app.company_city') }}</p>
+                                    <p><strong>Landline No. :</strong><br>
+                                        {{ config('app.company_landline_no') }}</p>
                                     <p><strong>Contact No. :</strong><br>
-                                        +91 8527688611</p>
+                                        {{ config('app.company_contact_person_name') }} - {{ getContactNo1() }}, <br> {{ getContactNo2() }}</p>
                                     <p><strong>Email :</strong><br>
-                                        info@trxlogistic.com, sudhir.kumar@trxlogistic.com</p>
+                                        {{ config('app.company_email1') }}, {{ config('app.company_email2') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +144,7 @@
 
                     <script type="text/javascript">document.write(new Date().getFullYear());</script>
 
-                    TRX Logistics & Support Services Pvt. Ltd. - All Rights Reserved - Powered By HiondSoft Technology</span>
+                    {{ config('app.name') }} - All Rights Reserved</span>
                 </div>
 
             </div>

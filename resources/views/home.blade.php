@@ -285,10 +285,10 @@
 
                                     <div class="col-md-12">
 
-                                        <script src='https://www.google.com/recaptcha/api.js'></script>
+{{--                                        <script src='https://www.google.com/recaptcha/api.js'></script>--}}
 
-                                        <div class="g-recaptcha"
-                                             data-sitekey="6Lc4dcAgAAAAAEum7JSGamyanLyGVD0xo-em6OYM"></div>
+{{--                                        <div class="g-recaptcha"--}}
+{{--                                             data-sitekey="6Lc4dcAgAAAAAEum7JSGamyanLyGVD0xo-em6OYM"></div>--}}
 
                                         <input type="submit" name="Submit" value="Submit"/>
 
@@ -326,70 +326,33 @@
 
                     <div class="heading">
 
-                        <h2>Our Clients</h2>
+                        <h2>Our Valuable Clients</h2>
 
-                        <p>Combining the best of two worlds in the form of technical know-how and field experience, our
-                            team has been delivering targeted results with every project. </p>
+                        <p>Quality services from its experienced staffs. Over the years the company has received positive feedbacks from existing clients: </p>
 
                     </div>
 
                     <ul class="partners" id="partners">
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client1.jpg') }}" alt=""/></a></li>
+                        <li><a href="#" title=""><img class="partners-image" itemprop="image" src="{{ asset('images/client1.png') }}" alt=""/></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client2.jpg') }}" alt=""/></a></li>
+                        <li><a href="#" title=""><img class="partners-image" itemprop="image" src="{{ asset('images/client2.png') }}" alt=""/></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client3.jpg') }}" alt=""/></a></li>
+                        <li><a href="#" title=""><img class="partners-image" itemprop="image" src="{{ asset('images/client3.png') }}" alt=""/></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client4.jpg') }}" alt=""/></a></li>
+                        <li><a href="#" title=""><img class="partners-image" itemprop="image" src="{{ asset('images/client4.png') }}" alt=""/></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client5.jpg') }}" alt=""/></a></li>
+                        <li><a href="#" title=""><img class="partners-image" itemprop="image" src="{{ asset('images/client5.png') }}" alt=""/></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client6.jpg') }}" alt=""/></a></li>
+                        <li><a href="#" title=""><img class="partners-image" itemprop="image" src="{{ asset('images/client6.png') }}" alt=""/></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client7.jpg') }}" alt=""/></a></li>
+                        <li><a href="#" title=""><img class="partners-image" itemprop="image" src="{{ asset('images/client7.png') }}" alt=""/></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client8.jpg') }}" alt=""/></a></li>
+                        <li><a href="#" title=""><img class="partners-image" itemprop="image" src="{{ asset('images/client8.png') }}" alt=""/></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client9.jpg') }}" alt=""/></a></li>
+                        <li><a href="#" title=""><img class="partners-image" itemprop="image" src="{{ asset('images/client9.png') }}" alt=""/></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client10.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client11.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client12.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client13.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client14.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client15.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client16.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client17.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client18.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client19.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client20.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client21.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client22.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client23.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client24.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client25.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client26.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client27.jp') }}" alt=""/></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client28.jp') }}" alt=""/></a></li>
+                        <li><a href="#" title=""><img  class="partners-image"itemprop="image" src="{{ asset('images/client10.png') }}" alt=""/></a></li>
 
                     </ul>
 

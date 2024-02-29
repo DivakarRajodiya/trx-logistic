@@ -32,78 +32,28 @@
 
                     <ul class="client">
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client2.jpg') }}" alt="" /></a></li>
+                        <li><a href="#" title=""><img class="client-image" itemprop="image" src="{{ asset('images/client1.png') }}" alt="" /></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client3.jpg') }}" alt="" /></a></li>
+                        <li><a href="#" title=""><img class="client-image" itemprop="image" src="{{ asset('images/client2.png') }}" alt="" /></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client4.jpg') }}" alt="" /></a></li>
+                        <li><a href="#" title=""><img class="client-image" itemprop="image" src="{{ asset('images/client3.png') }}" alt="" /></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client5.jpg') }}" alt="" /></a></li>
+                        <li><a href="#" title=""><img class="client-image" itemprop="image" src="{{ asset('images/client4.png') }}" alt="" /></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client6.jpg') }}" alt="" /></a></li>
+                        <li><a href="#" title=""><img class="client-image" itemprop="image" src="{{ asset('images/client5.png') }}" alt="" /></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client8.jpg') }}" alt="" /></a></li>
+                        <li><a href="#" title=""><img class="client-image" itemprop="image" src="{{ asset('images/client6.png') }}" alt="" /></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client9.jpg') }}" alt="" /></a></li>
+                        <li><a href="#" title=""><img class="client-image" itemprop="image" src="{{ asset('images/client8.png') }}" alt="" /></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client10.jpg') }}" alt="" /></a></li>
+                        <li><a href="#" title=""><img class="client-image" itemprop="image" src="{{ asset('images/client9.png') }}" alt="" /></a></li>
 
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client11.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client12.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client13.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client14.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client15.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client16.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client17.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client18.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client19.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client20.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client21.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client22.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client23.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client24.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client25.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client26.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client27.jpg') }}" alt="" /></a></li>
-
-                        <li><a href="#" title=""><img itemprop="image" src="{{ asset('images/client28.jpg') }}" alt="" /></a></li>
+                        <li><a href="#" title=""><img class="client-image" itemprop="image" src="{{ asset('images/client10.png') }}" alt="" /></a></li>
 
                     </ul>
 
-
-
-
-
-
-
-
-
-
-
                 </div>
-
-
-
-
-
             </div>
-
         </div> <div class="bottomimg"><img src="{{ asset('images/bottom.png') }}"></div>
 
     </section>

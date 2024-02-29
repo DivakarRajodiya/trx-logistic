@@ -1618,7 +1618,7 @@ header.sticky .menu-curve > ul:after {border-bottom-width: 40px;}
 }
 .partners .owl-nav > div:before {
     color: #7e7e7e;
-    content: "ï„„";
+    content: "\f053";
     font-family: fontawesome;
     font-size: 15px;
     left: 0;
@@ -1638,7 +1638,7 @@ header.sticky .menu-curve > ul:after {border-bottom-width: 40px;}
     width: 32px;
 }
 .partners .owl-nav > .owl-next {float: right;}
-.partners .owl-nav > .owl-next:before {content: "ï„…";}
+.partners .owl-nav > .owl-next:before {content: "\f054";}
 
 /* 16. Footer */
 
@@ -1693,7 +1693,7 @@ footer p {color: #b6b6b6;}
     width: 100%;
 }
 .widget ul > li > a:before {
-    content: "ïƒš";
+    content: "\f0da";
     font-family: fontawesome;
     font-size: 12px;
     left: 0;
@@ -9978,9 +9978,19 @@ footer .block {
     overflow: hidden;
 }
 
+/* Custom style */
 
+/* Home page */
+.partners-image{
+    width: 174px;
+    height: 100px;
+}
 
-
+/* Client page */
+.client-image{
+    width: 202px;
+    height: 100px;
+}
 
 
 

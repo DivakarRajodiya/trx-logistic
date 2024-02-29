@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'SAI RAM TRAVEL AND TOURS PVT. LTD.'),
 
     /*
     |--------------------------------------------------------------------------
@@ -58,6 +58,14 @@ return [
     'url' => env('APP_URL', 'http://localhost'),
 
     'asset_url' => env('ASSET_URL'),
+
+    'company_address' => 'Plot No. 55, Rajpura Gurmandi,',
+    'company_city' => 'Delhi - 110007',
+    'company_contact_person_name' => 'Anita Dhahiya',
+    'company_contact_no' => '+91 9210942748, +91 9811260774',
+    'company_landline_no' => '011-45042854',
+    'company_email1' => 'info@sairamtravel.in',
+    'company_email2' => 'sairamtravels94@gmail.com',
 
     /*
     |--------------------------------------------------------------------------
