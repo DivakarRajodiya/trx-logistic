@@ -41,7 +41,7 @@
 
 <body itemscope="">
 
-    <div class="theme-layout">
+    <div class="theme-layout bg-color-light">
 
         <!-- Header --->
         @include('layouts.header')

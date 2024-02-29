@@ -9980,6 +9980,10 @@ footer .block {
 
 /* Custom style */
 
+.bg-color-light {
+    background-color: #e8f4f3 !important;
+}
+
 /* Home page */
 .partners-image{
     width: 174px;
