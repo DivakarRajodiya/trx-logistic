@@ -368,122 +368,73 @@
     <script>
 
         $(document).ready(function () {
-
             "use strict";
-
 
             //** Main Img Carousel  **//
 
             $("#main-img-carousel").owlCarousel({
-
                 autoplay: true,
-
                 autoplayTimeout: 2000,
-
                 smartSpeed: 1500,
-
                 loop: true,
-
                 dots: false,
-
                 nav: false,
-
                 margin: 10,
-
                 items: 1,
-
                 singleItem: true,
-
             });
 
 
             //** Counter Up **//
 
             $('.counter').counterUp({
-
                 delay: 10,
-
                 time: 1000
-
             });
 
 
             //** Blog Post Carousel **//
 
             $("#blog-post-carousel").owlCarousel({
-
                 autoplay: false,
-
                 autoplayTimeout: 3000,
-
                 smartSpeed: 2000,
-
                 loop: false,
-
                 dots: false,
-
                 nav: true,
-
                 margin: 10,
-
                 items: 1,
-
                 singleItem: true,
-
             });
-
-
+            
             $('#datepicker,#datepicker2').datepick();
 
 
             //** Cities Carousel **//
 
             $("#cities-carousel").owlCarousel({
-
                 autoplay: false,
-
                 autoplayTimeout: 3000,
-
                 smartSpeed: 2000,
-
                 loop: true,
-
                 dots: false,
-
                 nav: true,
-
                 margin: 20,
-
                 items: 1,
-
                 singleItem: true,
-
                 responsiveClass: true,
-
                 responsive: {
-
                     0: {
-
                         items: 1
-
                     },
-
                     600: {
-
                         items: 3
-
                     },
-
                     1200: {
-
                         items: 3
-
                     }
-
                 }
-
             });
-
 
             $('div.members-area').each(function () {
 
@@ -492,24 +443,17 @@
                 var testimo = $(this).find(".member");
 
                 $(testimo).on("click", function () {
-
                     $(testimo).removeClass("clicked");
-
                     $(this).addClass("clicked");
-
                 });
-
             });
 
 
             // Post //
 
             $(".post-thumb > span").on("click", function () {
-
                 $(this).parent("div").toggleClass("slide-down");
-
                 return false;
-
             });
         });
     </script>

@@ -9996,8 +9996,25 @@ footer .block {
     height: 100px;
 }
 
+/* about as*/
+.margin-left {
+    margin-left: 15px;
+}
 
+.table-width{
+    width: 450px;
+}
+.table-center{
+    display: flex; 
+    justify-content: center;
+}
 
+.table-border tbody td,
+.table-border tbody th,
+.table-border thead tr,
+.table-border .border-bottom th {
+    border: 1px solid black;
+}
 
 
 

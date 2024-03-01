@@ -1,12 +1,9 @@
 @extends('layouts.app')
 @section('content')
     <section class="block remove-top pad60" style="padding-bottom:0px !important;">
-
-
-
+        
         <div class="container jtext">
             <div class="row">
-
                 <section class="servicesfour">
                     <ul>
                         <li><a href=""><img src="{{ asset('images/1.jpg') }}">
@@ -25,7 +22,6 @@
                 </section>
 
                 <div class="clearfix"></div>
-
                 <br>
                 &nbsp;
                 <div class="col-md-4">
@@ -46,14 +42,8 @@
                             <li>Coach Rental </li>
                             <li>On Call Services </li>
                             <li>Shuttle Services </li>
-
                             &nbsp;<br>
-
                         </ul></div>
-
-
-
-
                 </div>
                 <div class="col-md-8">
 
@@ -69,14 +59,9 @@
                         </div>
                         <!-- Main Img Carousel -->
                     </div>
-
-
                 </div>
-
             </div>
         </div>
-
-
 
         <div class="bottomimg"><img src="{{ asset('images/bottom.png') }}"></div>
     </section>
