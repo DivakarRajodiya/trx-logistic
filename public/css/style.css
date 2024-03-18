@@ -9996,7 +9996,7 @@ footer .block {
     height: 100px;
 }
 
-/* about as*/
+/* About us*/
 .margin-left {
     margin-left: 15px;
 }
@@ -10005,7 +10005,7 @@ footer .block {
     width: 450px;
 }
 .table-center{
-    display: flex; 
+    display: flex;
     justify-content: center;
 }
 
@@ -10016,7 +10016,13 @@ footer .block {
     border: 1px solid black;
 }
 
-
+ /* Header */
+.header-image{
+    height: 24%;
+    width: 24%;
+    border-radius: 5px;
+    object-fit: cover;
+}
 
 
 

@@ -3,7 +3,7 @@
     <!-- Top Sec -->
     <div class="logo-menu-sec">
         <div class="logo-menu bg-color-light">
-            <div class="logo"><a href="{{ route('home') }}" title=""><img itemprop="image" src="{{ asset('images/logo.png') }}" alt=""/></a>
+            <div class="logo"><a href="{{ route('home') }}" title=""><img itemprop="image" class="header-image" src="{{ asset('images/logo.png') }}" alt=""/></a>
             </div>
             <div class="quick-contact">
                 <ul>
