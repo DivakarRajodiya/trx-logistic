@@ -930,7 +930,18 @@ header.sticky .menu-curve > ul:after {border-bottom-width: 40px;}
     width: 100%;
 }
 .responsive-logo {float: left;}
-.responsive-logo .logo {width: auto;}
+
+@media screen and (max-width: 480px) {
+    .responsive-logo .logo img {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .responsive-logo .logo img {
+        width: 20%;
+    }
+}
+
 .responsive-btn {
     background: #121212 none repeat scroll 0 0;
     color: #ffffff;
@@ -6998,6 +7009,7 @@ button.datepick-cmd {text-align: center;}
     width: auto;
 }
 header.fancy-header.sticky .logo img {max-width: 350px;}
+header.fancy-header.stick .logo img {max-width: 350px;}
 header.fancy-header.sticky.header2 .logo img {max-width: 120px;}
 header.sticky .menu-curve > ul > li > a {padding: 13px 0; color:#004E9C;}
 .fancy-header.sticky .menu-curve > ul {
@@ -10018,8 +10030,8 @@ footer .block {
 
  /* Header */
 .header-image{
-    height: 24%;
-    width: 24%;
+    height: 35%;
+    width: 35%;
     border-radius: 5px;
     object-fit: cover;
 }
