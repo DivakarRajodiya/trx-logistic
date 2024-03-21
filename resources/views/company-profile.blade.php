@@ -12,7 +12,7 @@
             <div class="row p-2">
                 <div class="col-md-12">
                     <div class="title2">
-                        <h2>Company Profile</h2>
+                        <h2>About us: </h2>
                     </div>
                     {{--                        <p><strong>TRX Logistics & Support Services Pvt. Ltd </strong>was incepted in 2011. From about a decade the company has been providing relentless and unmatched services. The company was established with the aim of administering premium quality employee transportation solutions in the ever growing Indian market. Combining the best of two worlds in the form of technical know-how and field experience, our team has been delivering targeted results with every project. Understanding the varying needs and requirements of our clients has and shall always be our USP. Thus, we take pride in our highly customized services. With TRX you get the best in class services at the most competent rates. You can bank upon our team of experts who are there to provide their unparalleled services at every step.--}}
                     {{--                        </p>--}}
@@ -179,7 +179,7 @@
                     </table>
                 </div>
             </div>
-            
+
 
         </div>
         <section class="block greybg">
